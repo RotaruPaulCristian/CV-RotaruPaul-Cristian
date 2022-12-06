@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#firstColumn {
+  background-color: #345169;
+  width: 25rem;
+}
+
+#secondColumn {
+  background-color: #fbfbfa;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width: 28rem;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.introduction h1 {
+  color: #fbfbfa;
+  font-weight: bold;
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
+.introduction img {
+  margin: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.introduction pre {
+  color: #fbfbfa;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-right: 4em;
+  font-family: inherit;
+}
+
+.softSkills {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.softSkills h3 {
+  color: #fbfbfa;
+  font-weight: 600;
+}
+
+.softSkills ul li {
+  text-align: left;
+  color: #fbfbfa;
+  width: 19rem;
+  font-size: 1.2rem;
+  line-height: 90%;
+}
+
+.interests h3 {
+  color: #fbfbfa;
+  font-weight: 600;
+}
+
+.interests .row p {
+  color: #fbfbfa;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.interests .fa-solid {
+  color: black;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.interests .row .fa-book-open {
+  margin-left: -2.4rem;
+}
+
+.interests .row .fa-dumbbell {
+  margin-left: -4.5rem;
+}
+
+.surnameAndJobTitle h1 {
+  color: #345169;
+  font-weight: bold;
+  margin-left: 0.8rem;
+  margin-top: 5rem;
+}
+
+.surnameAndJobTitle h3 {
+  color: #345169;
+  margin-left: 0.8rem;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.contact p,
+a {
+  color: #345169;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-left: 3rem;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.contact .fa-solid,
+.fa-brands {
+  margin-right: 1.5rem;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.education h3 {
+  color: #345169;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.education h5 {
+  color: #345169;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+.education p,
+.university {
+  color: #345169;
+  font-weight: 500;
+  margin-left: 1.2rem;
+}
+
+.education h6 {
+  color: #345169;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.education ul li {
+  color: #345169;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.6;
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 576px) {
+  .surnameAndJobTitle h1 {
+    display: none;
+  }
+  .surnameAndJobTitle h3 {
+    text-align: center;
+  }
+  .contact p,
+  a {
+    margin-left: 0;
+  }
+
+  .introduction h1 {
+    margin-left: 0;
+  }
+
+  .introduction h1::after {
+    content: " Rotaru";
+  }
+}
